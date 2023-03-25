@@ -50,7 +50,7 @@ class UlauncherAnime(Extension):
 
     """global base url"""
 
-    base_url = "https://gogoanime.wiki/"
+    base_url = "https://gogoanime.gr/"
 
     def query(self, search_input):
 

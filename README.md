@@ -10,7 +10,7 @@
 
 
 ### Little tool written in python to watch anime using uLauncher (the better way to watch anime)
-### Scrapes: https://gogoanime.wiki
+### Scrapes: https://gogoanime.gr
 
 [Still in development]
 
