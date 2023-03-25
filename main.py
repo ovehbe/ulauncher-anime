@@ -170,12 +170,12 @@ class UlauncherAnime(Extension):
                         browser = webdriver.Chrome(
                             executable_path=ChromeDriverManager().install(), service_log_path=os.devnull)
 
-                    elif "chromium" in self.get_default_browser():
+                    """ elif "chromium" in self.get_default_browser():
                         from webdriver_manager.chrome import ChromeDriverManager
                         from webdriver_manager.utils import ChromeType
 
                         browser = webdriver.Chrome(ChromeDriverManager(
-                            chrome_type=ChromeType.CHROMIUM).install(), service_log_path=os.devnull)
+                            chrome_type=ChromeType.CHROMIUM).install(), service_log_path=os.devnull) """
 
                     else:
                         print("Defaulting to firefox")
